@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Nav/>
-        <main className="w-full relative flex flex-col items-center justify-between pt-20 pb-4">
+        <main className="w-full relative flex flex-col items-center justify-between pt-24 pb-4">
           {children}
         </main>
         <Footer/>

@@ -70,40 +70,31 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <a className="cursor-pointer font-bold text-primary-500 border-b-2 border-transparent hocus:border-primary-500 hocus:text-primary-800 transition duration-300" href="/rooms">Ver mas habitaciones <span><FaArrowRightLong className="inline"/></span></a>
           </div>
-          <div className="w-full md:w-1/2 xl:w-1/3 mt-16 xl:mt-0">
-            <div className="mx-auto xl:mx-0 xl:ml-auto max-w-sm md:max-w-xs lg:max-w-sm xl:max-w-xs">
-              <div className="h-80 bg-cover bg-center rounded" style={{ backgroundImage: `url(${habitaciones.src})`, }}></div>
-              <div className="mt-4">
-                <div className="flex justify-between items-center">
-                  <div className="text-primary-500 font-bold text-lg">Familiar</div>
-                  <div className="font-semibold text-sm text-gray-600"><span className="font-bold text-gray-800 text-lg">$500.00/noche</span></div>
+          <div className="flex md:flex-row flex-col md:w-6/12 justify-center items-center">
+            <div className="md:w-full w-4/5  mt-16 xl:mt-0 mx-2">
+              <div className="mx-auto xl:mx-0 xl:ml-auto max-w-sm md:max-w-xs lg:max-w-sm xl:max-w-xs">
+                <div className="h-80 bg-cover bg-center rounded" style={{ backgroundImage: `url(${habitaciones.src})`, }}></div>
+                <div className="mt-4">
+                  <div className="flex justify-between items-center">
+                    <div className="text-primary-500 font-bold text-lg">Familiar</div>
+                    <div className="font-semibold text-sm text-gray-600"><span className="font-bold text-gray-800 text-lg">$500.00/noche</span></div>
+                  </div>
+                    <h5 className="text-xl mt-4 font-bold">Habitacion Individual</h5>
+                    <button className="w-full px-8 py-3 font-bold rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300">Mas información</button>
                 </div>
-                  <h5 className="text-xl mt-4 font-bold">Habitacion Individual</h5>
-                  <button className="w-full px-8 py-3 font-bold rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300">Book now</button>
               </div>
             </div>
-          </div>
-          <div className="w-full md:w-1/2 xl:w-1/3 mt-16 xl:mt-0">
-            <div className="mx-auto xl:mx-0 xl:ml-auto max-w-sm md:max-w-xs lg:max-w-sm xl:max-w-xs">
-              <div className="h-80 bg-cover bg-center rounded" style={{ backgroundImage: `url(${habitaciones.src})`, }}></div>
-              <div className="mt-4">
-                <div className="flex justify-between items-center">
-                  <div className="text-primary-500 font-bold text-lg">Individual</div>
-                  <div className="font-semibold text-sm text-gray-600"><span className="font-bold text-gray-800 text-lg">$500.00/noche</span></div>
-                </div>
-                  <h5 className="text-xl mt-4 font-bold">Habitacion Individual</h5>
-                  <div className="flex flex-row flex-wrap justify-between sm:items-center font-semibold tracking-wide text-gray-600 uppercase text-xs">
-                    <div className="flex items-center mt-4 text-gray-300 text-xl">
-                      <FaBed/> 1
-                    </div>
-                    <div className="flex items-center mt-4">
-
-                    </div>
-                    <div className="flex items-center mt-4">
-
-                    </div>
+            <div className="md:w-full w-4/5 mt-16 xl:mt-0 mx-2">
+              <div className="mx-auto xl:mx-0 xl:ml-auto max-w-sm md:max-w-xs lg:max-w-sm xl:max-w-xs">
+                <div className="h-80 bg-cover bg-center rounded" style={{ backgroundImage: `url(${habitaciones.src})`, }}></div>
+                <div className="mt-4">
+                  <div className="flex justify-between items-center">
+                    <div className="text-primary-500 font-bold text-lg">Individual</div>
+                    <div className="font-semibold text-sm text-gray-600"><span className="font-bold text-gray-800 text-lg">$500.00/noche</span></div>
                   </div>
-                  <button className="w-full px-8 py-3 font-bold rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300">Reservar ahora</button>
+                    <h5 className="text-xl mt-4 font-bold">Habitacion Individual</h5>
+                    <button className="w-full px-8 py-3 font-bold rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300">Mas información</button>
+                </div>
               </div>
             </div>
           </div>
