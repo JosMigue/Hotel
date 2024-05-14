@@ -27,7 +27,7 @@ const Page = () =>{
                   <div className="flex items-center justify-center">
                   <span className="ml-4">Log in with Google
                   </span>
-                    <Image src={googleIcon} width={30} height={30}></Image>
+                    <Image src={googleIcon} width={30} height={30} alt='Google icon'></Image>
                   </div>
                 </button>
             <p className="mt-8">Need an account? <a href="mailto:Jose_Galva20_97@hotmail.com" className="text-blue-500 hover:text-blue-700 font-semibold">Please contact admin</a></p>

@@ -4,7 +4,7 @@ const loading = () => {
   return (
     <div className='flex items-center justify-center min-h-screen'>
        {/*  <div style={{borderTopColor:'transparent '}} classNamew="w-8 h-8 border-4 border-blue-200 rounded-full animate-spin"></div> */}
-        <Image className='animate-bounce' src={logo} width={50} height={50}/>
+        <Image className='animate-bounce' src={logo} width={50} height={50} alt='spin loading'/>
     </div>
   )
 }

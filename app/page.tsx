@@ -62,7 +62,7 @@ export default function Home() {
           <h1 className="text-center text-5xl text-primary-500 text-center uppercase">Nuestras <span className="bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block"> Amenidades</span></h1>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
             {
-              services.map(service => <CardService title={service.title} description={service.description} goTo={service.to_go} Icon={service.icon} imageSource={'#'}/>)
+              services.map((service, index) => <CardService key={index} title={service.title} description={service.description} goTo={service.to_go} Icon={service.icon} imageSource={'#'}/>)
             }
           </div>
         </div>
