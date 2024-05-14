@@ -29,6 +29,10 @@ export default function Home() {
   const services = [
     {title: 'Alberca', description:'Responsive, and mobile-first project on the web', icon: FaWaterLadder, to_go:'#'},
     {title: 'Vista a la playa', description:'Components are easily customized and extendable', icon:LiaUmbrellaBeachSolid , to_go:'#'},
+    {title: 'Vista a la playa', description:'Components are easily customized and extendable', icon:LiaUmbrellaBeachSolid , to_go:'#'},
+    {title: 'Vista a la playa', description:'Components are easily customized and extendable', icon:LiaUmbrellaBeachSolid , to_go:'#'},
+    {title: 'Vista a la playa', description:'Components are easily customized and extendable', icon:LiaUmbrellaBeachSolid , to_go:'#'},
+    {title: 'Restaurante', description:'Every component and plugin is well documented', icon:IoRestaurant, to_go:'#'},
     {title: 'Restaurante', description:'Every component and plugin is well documented', icon:IoRestaurant, to_go:'#'},
     {title: '24/7 Support', description:'Contact us 24 hours a day, 7 days a week', icon:'user', to_go:'#'}
   ];

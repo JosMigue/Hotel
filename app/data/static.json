@@ -1,0 +1,62 @@
+{
+    "hotel_name": "HOTEL HACIENDA TRINIDAD",
+    "slogan": "Cuidamos de ti y de la naturaleza",
+    "address": "Dirección completa del hotel",
+    "contact_information": {
+      "phone_numbers": ["1234567890", "1234567890"],
+      "whatsapp": "123 456 7890",
+      "email": "ejemplo@example.com",
+      "working_hours": "Lunes a Domingo 9:00 am - 18:00 pm"
+    },
+    "room_types": [
+      {
+        "type": "STANDARD",
+        "description": "Habitación con 2 camas matrimoniales, aire acondicionado, TV y una increíble vista a los jardines y alberca.",
+        "max_occupancy": 4,
+        "price": 2420.00,
+        "preview":"/images/gallery/DSC05514AA.jpg",
+        "images":[]
+    },
+    {
+        "type": "JR SUITE",
+        "description": "Habitación con una cama king size, aire acondicionado, TV, ventanal y jacuzzi con una maravillosa vista al mar.",
+        "max_occupancy": 2,
+        "price": 2720.00,
+        "preview":"/habitaciones.jpg",
+        "images":[]
+    },
+    {
+        "type": "MR SUITE",
+        "description": "Habitación con una cama king size, aire acondicionado, ServiBar y jacuzzi con increíble vista panorámica al mar, jardines y alberca.",
+        "max_occupancy": 2,
+        "price": 3120.00,
+        "preview":"/habitaciones.jpg",
+        "images":[]
+    },
+    {
+        "type": "FAMILIAR",
+        "description": "Habitación doble con cuartos interconectados, 3 camas matrimoniales, aire acondicionado, TV y pequeña terraza.",
+        "max_occupancy": 6,
+        "price": 3920.00,
+        "preview":"/habitaciones.jpg",
+        "images":[]
+      }
+    ],
+    "extra_person_charges": {
+      "person_above_6_years": 250.00,
+      "extra_mattress": 300.00
+    },
+    "policies": {
+      "check_in": "3:00 pm",
+      "check_out": "1:00 pm",
+      "wifi_access": "Internet en áreas de bar, restaurante, recepción y parcialmente jardines y alberca.",
+      "amenities": ["Alberca", "Estacionamiento", "Áreas Verdes", "Bar", "Palapa", "Área de descanso en la playa", "Restaurante (9:00 am - 6:00 pm)"],
+      "cancellation_policy": "Cambios y devoluciones pueden ser realizadas como máximo un día antes de la fecha de su check-in a las 3:00 pm del día para evitar cargos. En caso de no presentarse se generará un cargo por el total de una noche de estancia en la unidad reservada.",
+      "children_policy": "Los niños mayores a 6 años son considerados como adultos y se toman en cuenta para las camas disponibles de las unidades.",
+      "pet_policy": "Nuestro hotel NO ACEPTA MASCOTAS de ningún tipo.",
+      "prohibited_items": ["Electrodomésticos (Parrillas eléctricas, asadores, entre otras)", "Cocinar dentro de Habitaciones"],
+      "billing": "Puede solicitar su factura hasta el fin de mes correspondiente a su renta o consumo.",
+      "tax_included": "Todas nuestras tarifas incluyen IVA."
+    },
+    "additional_information": "HOTEL HACIENDA HOTEL EJEMPLO AGRADECE SU PREFERENCIA."
+  }
