@@ -38,8 +38,28 @@ const Page = () =>{
           </a>
         </div>
       </Banner>
-      <section className="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto w-full w-full flex flex-col justify-center items-center">
+      <section className="max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto w-full w-full flex flex-col justify-center items-center">
        <h1 className="text-center text-5xl uppercase">Nuestras <span className="bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block">instalaciones</span> </h1>
+        <div className="flex flex-col lg:flex-row space-x-4 md:space-x-6 lg:space-x-8">
+          <div>
+            <Image src={gallery1} alt="image" className="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 transition ease-in-out duration-500"/>
+            <Image src={gallery2} alt="image" className="hover:opacity-75 transition ease-in-out duration-500"/>
+          </div>
+
+          <div>
+            <Image src={gallery3} alt="image" className="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 transition ease-in-out duration-500"/>
+            <Image src={gallery4} alt="image" className="mb-3 md:mb-6 lg:mb-8 hover:opacity-75 transition ease-in-out duration-500"/>
+            <Image src={gallery5} alt="image" className="hover:opacity-75 transition ease-in-out duration-500"/>
+          </div>
+
+          <div>
+            <Image src={gallery7} alt="image" className="hover:opacity-75 transition ease-in-out duration-500"/>
+            <Image src={gallery22} alt="image" className="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 transition ease-in-out duration-500"/>
+          </div>
+        </div>
+      </section>
+      <section className="max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto w-full w-full flex flex-col justify-center items-center">
+       <h1 className="text-center text-5xl uppercase">Playas <span className="bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block">cercanas</span> </h1>
         <div className="flex flex-col lg:flex-row space-x-4 md:space-x-6 lg:space-x-8">
           <div>
             <Image src={gallery1} alt="image" className="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 transition ease-in-out duration-500"/>

@@ -13,25 +13,36 @@ import habitaciones from '../public/habitaciones.jpg';
 /* import FeaturedCard from '../components/FeaturedaCard'; */
 import CardService from './components/cards/CardService';
 import Banner from './components/layouts/Banner';
-import { FaWaterLadder, FaArrowRightLong  } from "react-icons/fa6";
+import { FaArrowRightLong  } from "react-icons/fa6";
 import { IoRestaurant } from "react-icons/io5";
 import { LiaUmbrellaBeachSolid } from "react-icons/lia";
 import { FaBed } from "react-icons/fa";
+import { faWaterLadder } from "@fortawesome/free-solid-svg-icons";
+import { faParking } from "@fortawesome/free-solid-svg-icons/faParking";
+import { LuLeafyGreen } from "react-icons/lu";
+import { MdLocalBar } from "react-icons/md";
+
+import staticData from './config/pageStaticInfo.json';
 
 
 export default function Home() {
+
   const bannerStyle = {
     backgroundImage:`url(${bg.src})`,
     backgroundRepeat:'no-repeat',
     backgroundSize:'cover',
     backgroundPosition:'center'
   }
-  const services = [
-    {title: 'Alberca', description:'Responsive, and mobile-first project on the web', icon: FaWaterLadder, to_go:'#'},
-    {title: 'Vista a la playa', description:'Components are easily customized and extendable', icon:LiaUmbrellaBeachSolid , to_go:'#'},
-    {title: 'Restaurante', description:'Every component and plugin is well documented', icon:IoRestaurant, to_go:'#'},
-    {title: '24/7 Support', description:'Contact us 24 hours a day, 7 days a week', icon:'user', to_go:'#'}
+
+  const services =  [
+    {name:'Alberca', description:'', icon:faWaterLadder, to_go:"#"}, 
+    {name:'Estacionamiento', description:'', icon:faParking, to_go:"#"}, 
+    {name:'Áreas Verdes', description:'', icon:LuLeafyGreen, to_go:"#"}, 
+    {name:'Bar', description:'', icon:MdLocalBar, to_go:"#"}, 
+    {name:'Área de descanso en la playa', description:'', icon:LiaUmbrellaBeachSolid, to_go:"#"}, 
+    {name:'Restaurante (9:00 am - 6:00 pm)', description:'', icon:IoRestaurant, to_go:"#"}
   ];
+
   return(
     <>
       <Banner styles={bannerStyle} title={'Hotel Hacienda Trinidad'}>
@@ -58,7 +69,7 @@ export default function Home() {
           <h1 className="text-center text-5xl text-primary-500 text-center uppercase">Nuestras <span className="bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block"> Amenidades</span></h1>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
             {
-              services.map(service => <CardService title={service.title} description={service.description} goTo={service.to_go} Icon={service.icon} imageSource={'#'}/>)
+              services.map(service => <CardService title={service.name} description={service.description} goTo={service.to_go} Icon={service.icon} imageSource={'#'}/>)
             }
           </div>
         </div>
